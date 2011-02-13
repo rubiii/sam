@@ -1,0 +1,16 @@
+template_function: off
+
+javascripts:
+  app:
+    # vendor libraries
+    - public/javascripts/vendor/jquery-1.5.min.js
+    - public/javascripts/vendor/sammy-0.6.3.js
+    - public/javascripts/vendor/mustache.js
+    - public/javascripts/vendor/jammit-mustache.js
+    # http://rubygems.org/gems/jquery-rails
+    - public/javascripts/rails.js
+    # custom scripts
+    - public/javascripts/sammy-jst.js
+    - public/javascripts/application.js
+    # template files
+    - app/views/**/*.jst

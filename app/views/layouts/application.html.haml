@@ -1,0 +1,13 @@
+!!! 5
+%html
+  %head
+    %title Sam
+    %meta(charset="utf-8")
+    = csrf_meta_tag
+    = include_javascripts :app
+
+  %body
+    #app
+      #left
+        =yield
+      #right
